@@ -52,7 +52,7 @@ function getRepos() {
                 theUrl.appendChild(theUrlText);
 
                 // add the hypertext refernse "href"
-                theUrl.href = `https://github.com/ElzeroWebSchool/${repo.name}`;
+                theUrl.href = `https://github.com/${theInput.value}/${repo.name}`;
 
                 // set attrinute blank
                 theUrl.setAttribute('target', '_blank');
